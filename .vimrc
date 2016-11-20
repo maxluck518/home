@@ -268,7 +268,13 @@ endif
 set backspace=2              " 设置退格键可用
 set autoindent               " 自动对齐
 set ai!                      " 设置自动缩进
-set smartindent              " 智能自动缩进
+" set smartindent              " 智能自动缩进
+" sdnet/c缩进模式
+set cindent
+set cinkeys=0{,0},0#,!<Tab>
+set cinwords=if,else,while,do,for,switch
+set cinoptions=>s,e0,n0,f0,{0,}0,^0,L-1,:s,=s,l1,b0,gs,hs,N0,ps,ts,is,+s,c3,C0,/0,(2s,us,U0,w0,W0,k0,m0,j1,J1,)20,*70,#0
+
 set relativenumber           " 开启相对行号
 set nu!                      " 显示行号
 set ruler                    " 右下角显示光标位置的状态行
@@ -288,7 +294,7 @@ set noswapfile               " 不生成交换文件
 "set list                     " 显示特殊字符，其中Tab使用高亮~代替，尾部空白使用高亮点号代替
 set listchars=tab:\~\ ,trail:.
 set expandtab                " 将Tab自动转化成空格 [需要输入真正的Tab键时，使用 Ctrl+V + Tab]
-"set showmatch               " 显示括号配对情况
+set showmatch               " 显示括号配对情况
 
 syntax enable                " 打开语法高亮
 syntax on                    " 开启文件类型侦测
