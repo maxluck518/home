@@ -1,0 +1,103 @@
+snippet /       单行注释
+	<%# ${0} %>
+# 流程控制
+snippet if      if
+	<% if ${1} %>
+	  ${0}
+	<% end %>
+snippet elif    elsif
+	<% elsif ${1} %>
+	  ${0}
+snippet el      else
+	<% else %>
+	  ${0}
+snippet fo      for .. in
+	<% for ${1} in ${2} %>
+	  ${0}
+	<% end %>
+snippet fe      each .. do
+	<% ${1}.each do |${2}| %>
+	  ${0}
+	<% end %>
+snippet end     end
+	<% end %>${0}
+snippet fm      表单
+	<%= form_for ${1} do |${2}| %>
+	  ${0}
+	<% end %>
+snippet re      复用模板
+	<%= render ${0} %>
+snippet cf      填充局部模版块
+	<%= content_for :${1} do %>
+	  ${0}
+	<% end %>
+# 表单
+snippet fmf     建立表单
+	form_for ${0}
+snippet fmt     建立表单，但不绑定Model实例
+	form_tag ${0}
+snippet imt     图片
+	image_tag(${0})
+snippet lb      标签
+	label :${0}
+snippet bt      按钮
+	button_to ${0}
+snippet rb      单选按钮
+	radio_button ${0}
+snippet cb      多选按钮
+	check_box ${0}
+snippet txf     输入框
+	text_field :${0}
+snippet txa     文本框
+	text_area :${0}
+snippet ff      文件上传控件
+	file_field ${0}
+snippet se      下拉框
+	select ${0}
+snippet sed     日期下拉框
+	select_date ${0}
+snippet sedt    日期时间下拉框
+	select_datetime ${0}
+snippet hf      隐藏成员
+	hidden_field ${0}
+snippet sb      提交按钮
+	submit '${0}'
+snippet lit     链接
+	link_to '${1}'${0}
+# 辅助方法
+snippet sf      将\n替换为<br>
+	simple_format${0}
+snippet ntc     将数字以价格形式显示
+	number_to_currency(${0})
+snippet plu     自动呈现单复数
+	pluralize${0}
+snippet ct      生成HTML标签
+	content_tag${0}
+# 重要变量
+snippet _c      控制器名
+	controller.controller_name${0}
+snippet _a      方法名
+	controller.action_name${0}
+snippet _coo    cookies
+	cookies[:${0}]
+snippet _ses    session
+	session[:${0}]
+snippet _fla    flash
+	flash[:${0}]
+snippet _par    params
+	params[:${0}]
+snippet _req    request
+	request[:${0}]
+snippet _res    response
+	response[:${0}]
+# 其他
+snippet yi      yield
+	yield${0}
+snippet |       | ... |
+	|${0}|
+snippet <<      { .. }
+	{ ${0} }
+snippet <       执行代码
+	<% ${0} %>
+snippet .       执行代码后输出
+	<%= ${0} %>
