@@ -12,7 +12,7 @@ syntax match Title /^#define/
 syntax match Type /\(^\|\s\)\(length\|fields\|max_length\)\s/
 syntax match Type /\(^\|\s\)\(width\|layout\|attributes\|type\|static\|result\|direct\|instance_count\|min_width\|saturating\)\s/
 syntax match Special /\(bytes\|packets\)\s/
-syntax match Tag /\(^\|\s\)\(control\|action\|table\|counter\|header_type\|header\|register\|parser\|metadata\|primitive_action\|meter\|parse_error\|default\)\s/
+syntax match Tag /\(^\|\s\)\(control\|action\|table\|counter\|header_type\|header\|register\|parser\|metadata\|field_list\|field_list_calculation\|calculated_field\|primitive_action\|meter\|parse_error\|default\)\s/
 syntax match Tag /\(^\|\s\)\(reads\|actions\|min_size\|max_size\|size\|support_timeout\|action_profile\)/
 syntax match Type /\(exact\|ternary\|lpm\|range\|valid\|mask\)\s/
 syntax match Keyword /\(^\|\s\)\(if\|else if\|else\)/

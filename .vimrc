@@ -275,7 +275,7 @@ set cinkeys=0{,0},0#,!<Tab>
 set cinwords=if,else,while,do,for,switch
 set cinoptions=>s,e0,n0,f0,{0,}0,^0,L-1,:s,=s,l1,b0,gs,hs,N0,ps,ts,is,+s,c3,C0,/0,(2s,us,U0,w0,W0,k0,m0,j1,J1,)20,*70,#0
 
-set relativenumber           " 开启相对行号
+" set relativenumber           " 开启相对行号
 set nu!                      " 显示行号
 set ruler                    " 右下角显示光标位置的状态行
 set incsearch                " 开启实时搜索功能
@@ -977,3 +977,12 @@ set clipboard+=unnamed
 
 " YCM
 " let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
+"
+"
+"
+"P4 ctags 
+augroup filetypedetect
+    au BufRead,BufNewFile *.p4 setfiletype c
+    "associate *.p4 with c filetype
+augroup END
+

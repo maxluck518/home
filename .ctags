@@ -1,0 +1,15 @@
+--langdef=p4
+--langmap=p4:.p4
+--regex-p4=/^[ \t]*#define[ \t]+([a-zA-Z0-9_]+)/\1/d,definition/
+--regex-p4=/^[ \t]*header_type[ \t]+([a-zA-Z0-9_]+)/\1/t,header_type/
+--regex-p4=/^[ \t]*metadata[ \t]+([a-zA-Z0-9_]+)[ \t]+([a-zA-Z0-9_]+)/\2/m,metadata/
+--regex-p4=/^[ \t]*header[ \t]+([a-zA-Z0-9_]+)[ \t]+([a-zA-Z0-9_]+)/\2/h,header/
+--regex-p4=/^[ \t]*action[ \t]+([a-zA-Z0-9_]+)/\1/a,action/
+--regex-p4=/^[ \t]*action_profile[ \t]+([a-zA-Z0-9_]+)/\1/f,action/
+--regex-p4=/^[ \t]*action_selector[ \t]+([a-zA-Z0-9_]+)/\1/f,action/
+--regex-p4=/^[ \t]*control[ \t]+([a-zA-Z0-9_]+)/\1/c,control/
+--regex-p4=/^[ \t]*counter[ \t]+([a-zA-Z0-9_]+)/\1/f,counter/
+--regex-p4=/^[ \t]*field_list[ \t]+([a-zA-Z0-9_]+)/\1/v,field_list/
+--regex-p4=/^[ \t]*field_list_calculation[ \t]+([a-zA-Z0-9_]+)/\1/f,field_list_calulation/
+--regex-p4=/^[ \t]*parser[ \t]+([a-zA-Z0-9_]+)/\1/p,parser/
+--regex-p4=/^[ \t]*table[ \t]+([a-zA-Z0-9_]+)/\1/t,table/

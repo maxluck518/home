@@ -144,3 +144,22 @@ command! -nargs=0 TagbarTogglePause   call tagbar#toggle_pause()
 
 " Modeline {{{1
 " vim: ts=8 sw=4 sts=4 et foldenable foldmethod=marker foldcolumn=1
+"
+"
+
+" p4 language
+let g:tagbar_type_p4 = {
+            \ 'ctagstype' : 'p4',
+            \ 'kinds'     : [
+            \ 'd:definition',
+            \ 't:header_type',
+            \ 'm:metadata',
+            \ 'h:header',
+            \ 'v:field_list',
+            \ 'p:parser',
+            \ 'f:function',
+            \ 't:table',
+            \ 'a:action',
+            \ 'c:control'
+            \ ]
+            \ }
