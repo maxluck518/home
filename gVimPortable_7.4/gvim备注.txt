@@ -1,0 +1,14 @@
+zR: 		打开所有折叠点
+zM：		关闭所有折叠点
+zi：		打开当前折叠（空格也可以）
+f9：		保存编译连接执行
+<c-f9>：	保存编译
+<c-f10>：	保存连接
+f2:		目录树浏览插件
+f3:		Source Insight函数浏览窗口
+tab：		自动补全
+tb：		打开tag bar
+tl：		打开taglist
+<c-]>:		ctags跳转
+<c-t>:		ctags跳回
+ctags -R：
