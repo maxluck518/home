@@ -7,5 +7,5 @@
     2.  tmux configuration
     3.  zsh configuration
     
-    note: This version include YCM which support C/C++(clang 4.0) && python2.7i(jedi)
+    note: This version include YCM which support C/C++(clang 4.0) && python2.7(jedi)
     To be continued...

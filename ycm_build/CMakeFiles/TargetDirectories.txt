@@ -1,8 +1,0 @@
-/home/mjw/ycm_build/BoostParts/CMakeFiles/BoostParts.dir
-/home/mjw/ycm_build/ycm/tests/CMakeFiles/copy_testdata.dir
-/home/mjw/ycm_build/ycm/tests/gmock/CMakeFiles/gmock.dir
-/home/mjw/ycm_build/ycm/tests/gmock/CMakeFiles/gmock_main.dir
-/home/mjw/ycm_build/ycm/tests/gmock/gtest/CMakeFiles/gtest.dir
-/home/mjw/ycm_build/ycm/tests/gmock/gtest/CMakeFiles/gtest_main.dir
-/home/mjw/ycm_build/ycm/CMakeFiles/ycm_core.dir
-/home/mjw/ycm_build/ycm/tests/CMakeFiles/ycm_core_tests.dir
