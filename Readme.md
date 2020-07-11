@@ -5,6 +5,6 @@
 #####   Including...
     1.  vim configuration(support for P4 && sdnet)
     2.  tmux configuration
-    3.  blogs for p4,hls,tmux,vim
+    3.  no ycm, fast version
     
     To be continued...
